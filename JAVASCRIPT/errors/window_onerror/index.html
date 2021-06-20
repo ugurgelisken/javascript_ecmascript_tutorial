@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Merhaba JavaScript</title>
+    <script src="index.js" defer>	</script>
+  </head>
+  <body>
+  </body>
+  <script>
+    window.onerror = function(message, url, line, col, error) {
+      console.log("Mesaj:", message);
+      console.log("Adres:", url);
+      console.log("Satır:", line);
+      console.log("Karakter:", col);
+      console.log("Hata:", error);
+    };
+  </script>
+</html>
+
+

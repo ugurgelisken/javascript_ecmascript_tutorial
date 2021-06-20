@@ -1,0 +1,10 @@
+var a = 1;
+console.log(a, typeof a);
+a = 1.0;
+console.log(a, typeof a);
+a = "Bir";
+console.log(a, typeof a);
+a = ["Bir"];
+console.log(a, typeof a);
+a = [{"bir": 1}];
+console.log(a, typeof a);

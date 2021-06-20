@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Kullanıcı Yönetim Tablosu</title>
+</head>
+<body>
+  <div>
+    <table style="width:100%">
+      <thead>
+        <tr>
+          <th>İsim</th>
+          <th>Soyisim</th>
+          <th>E-mail</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="userTable">
+      </tbody>
+    </table>
+    <br />
+    <div>
+      <input type="text" id="first_name" placeholder="İsim" />
+      <input type="text" id="last_name" placeholder="Soyisim" />
+      <input type="email" id="email" placeholder="E-mail" />
+      <button onclick="createUser()">Kullanıcı Oluştur</button>
+      <button style="float:right" onclick="refreshTable()">Yenile</button>
+    </div>
+
+  </div>
+</body>
+<script src="index.js" defer>	</script>
+<style>
+  th {
+    padding: 6px;
+  }
+  th {
+    text-align: left;
+    color: white;
+    background-color: black;
+  }
+  td {
+    text-align: left;
+    background-color: silver;
+  }
+  td input {
+    width: -webkit-fill-available;
+  }
+  td:nth-child(4) {
+    display: flex;
+  }
+  td:nth-child(4) button {
+    width: 50%;
+  }
+</style>
+
+</html>

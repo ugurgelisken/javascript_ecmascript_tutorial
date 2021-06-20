@@ -1,0 +1,22 @@
+input[type="button"] { 
+   width:100% ;
+   color: #608b64;
+} 
+
+#result{
+   font-weight: 600;
+   color: black;
+}
+
+canvas{
+   position: absolute;
+   top:0;
+   left:0;
+   z-index:-1;
+ }
+
+ body{
+   margin: 0;
+   background: #000;
+   font-family: "Open Sans";
+ }

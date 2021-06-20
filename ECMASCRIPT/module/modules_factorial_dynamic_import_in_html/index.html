@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script>
+    const factorial_module = './modules/factorial.js';
+      import(factorial_module)
+        .then((module) => {
+          document.write("<p>Modül yüklendi...</p>");
+          module.default();
+          document.write(`<p>${module.factorialExample}`);
+          document.write(`<p>10! çözümü: ${module.calculateFactorial(10)}</p>`);
+        }).catch(error => {
+          console.log("Hata: ", error);
+        });
+  </script>
+</head>
+<body>
+</body>
+</html>

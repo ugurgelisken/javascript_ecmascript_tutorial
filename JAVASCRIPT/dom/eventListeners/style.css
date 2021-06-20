@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+
+#main{
+    font-size: 18px;
+    padding: 10px;
+    height: calc( 100vh - 40px );
+    position: absolute;
+    z-index: 11;
+    right: 0;
+    left: 0;
+    top: 40px;
+    text-align: center;
+}
+
+#main input[type="text"]{
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    font-size: 36px;
+}
+
+img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.tools{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 4px;
+    filter: drop-shadow(2px 2px 4px black);
+}
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 0px;
+}

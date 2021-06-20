@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='tr'>
+
+<head>
+  <title>Şablon Sayfa</title>
+  <meta charset='utf-8'>
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <script src="index.js" defer ></script>
+</head>
+
+<body 
+  onload="pageLoaded()" 
+  onoffline="javascript:alert('İnternet bağlantısı yok')" 
+  ononline="javascript:alert('İnternet bağlantısı var')" >
+  <div class="tools">
+    <button id="btnLoadImage" >Resim Yükle</button>
+    <button id="btnClosePage" >Kapat</button>
+  </div>
+  <div id="main">
+    <div>
+      <input type="text" id="customTextInput" placeholder="..." />
+      <div id="texts"></div>
+     
+    </div>
+  </div>
+  <div id="imageArea"></div>
+  <div id="footer">
+    <small>@2020 JavaScript Programlama</small>
+  </div>
+</body>
+
+</html>

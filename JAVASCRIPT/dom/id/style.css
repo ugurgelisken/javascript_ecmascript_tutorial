@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+
+#main{
+    background-color: silver;
+    font-size: 18px;   
+    padding: 10px;
+    height: calc( 100vh - 40px );
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    padding: 8px;
+    background-color: #0c0c0c;
+    color: white;
+    border-radius: 8px;
+    font-size: 22px;
+}
+
+.text{
+    font-size: 16px;
+    color:#0c0c0c;
+    line-height: 10px;
+}
+
+
+.tools{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 4px;
+    filter: drop-shadow(2px 2px 4px black);
+}
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 0px;
+}
